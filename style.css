@@ -74,18 +74,170 @@ body{
     margin-top: -30px;
 }
 
-.banner .part1 p{
+.banner .part1 .btn{
     border-radius: 10px;
     background-color: black;
     font-weight: 600;
     width: 150px;
     text-align: center;
     padding: 15px;
+    cursor: pointer;
+}
+
+.banner .part1 .btn:hover{
+    box-shadow: 2px 3px 5px 0px;
 }
 /* --------------Banner Section End---------- */
+.how-section{
+    margin-top: 90px;
+}
+
+.how-section .how-title{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.how-section .how-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.how-section .how-part .how-part1{
+    width: 325px;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-section .how-part .how-part1 .part-img{
+    background-color: rgb(235, 234, 234);
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-section .how-part .how-part1 .part-img img{
+    width: 75px;
+    height: 75px;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.how-section .how-part .how-part1 h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.how-section .how-part .how-part1:hover h3{
+    border-bottom: solid;
+    border-color: #34bb71;
+}
+
+
+.how-section .how-part .how-part1 p{
+    text-align: center;
+    color: rgb(184, 184, 184);
+    line-height: 28px;
+}
+
+.how-section .how-part .how-part1:hover .part-img{
+    background-color: #34bb71;
+}
+
+.how-section .how-part .how-part1:hover .part-img img{
+    color: white;
+}
+
+.how-section .how-part .how-part1:hover p{
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+}
+
+/* ---Payment--- */
+.how-section .how-payment-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.how-section .how-payment-container .how-part2{
+    width: 325px;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-section .how-payment-container .how-part2 .part2-img{
+    background-color: rgb(235, 234, 234);
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-section .how-payment-container .how-part2 .part2-img img{
+    width: 75px;
+    height: 75px;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.how-section .how-payment-container .how-part2 h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.how-section .how-payment-container .how-part2:hover h3{
+    border-bottom: solid;
+    border-color: #34bb71;
+}
+
+
+.how-section .how-payment-container .how-part2 p{
+    text-align: center;
+    color: rgb(184, 184, 184);
+    line-height: 28px;
+}
+
+.how-section .how-payment-container .how-part2:hover .part2-img{
+    background-color: #34bb71;
+}
+
+.how-section .how-payment-container .how-part2:hover .part2-img img{
+    color: white;
+}
+
+.how-section .how-payment-container .how-part2:hover p{
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+}
+
+.how-section .payment-btn{
+    margin-top: 20px;
+}
+
+.how-section .payment-btn .btn{
+    border-radius: 10px;
+    background-color: black;
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.how-section .payment-btn .btn:hover{
+    box-shadow: 0px 5px 10px 0px;
+}
 
 
 
-
-/* ------------------How Section------------- */
+/* ------------------How Section End------------- */
 
