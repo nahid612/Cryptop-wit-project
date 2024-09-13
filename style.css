@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+}
+
+.nav{
+    background-color: black;
+    height: 50px;
+}
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.nav .logo .logoColor{
+    background-color: rgb(13, 238, 163);
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav .logo h5{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.nav ul{
+    display: flex;
+    gap: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: right;
+    text-decoration: none;
+
+}
+
+.nav ul li a{
+    color: white;
+    justify-content: center;
+    /* align-items: center; */
+    text-decoration: none;
+}
+
+.nav ul li span img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav ul li img{
+    margin-right: 20px;
+}
+/* -----------------Navber End------------- */
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(Source/images/hero-bg.jpg);
+    height: 634px;
+    align-items: center;
+    color: white;
+}
+
+.banner .part1 h1{
+    font-size: 65px;
+}
+
+.banner .part1 h3{
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+.banner .part1 p{
+    border-radius: 10px;
+    background-color: black;
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+}
+/* --------------Banner Section End---------- */
+
+
+
+
+/* ------------------How Section------------- */
+
