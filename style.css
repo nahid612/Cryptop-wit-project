@@ -85,7 +85,7 @@ body{
 }
 
 .banner .part1 .btn:hover{
-    box-shadow: 2px 3px 5px 0px;
+    box-shadow: 3px 4px 5px 0px rgb(59, 57, 57);
 }
 /* --------------Banner Section End---------- */
 .how-section{
@@ -234,10 +234,61 @@ body{
 }
 
 .how-section .payment-btn .btn:hover{
-    box-shadow: 0px 5px 10px 0px;
+    box-shadow: 3px 4px 5px 0px rgb(59, 57, 57);
 }
-
 
 
 /* ------------------How Section End------------- */
 
+.about-section{
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.about-section h2{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: solid;
+    border-color: #34bb71;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    border-bottom-width: 8px;
+}
+
+.about-section img{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+}
+
+.about-section p{
+    text-align: center;
+    margin: 20px 200px;
+    line-height: 30px;
+}
+
+.about-section .btn{
+    border-radius: 10px;
+    background-color: black;
+    font-weight: 600;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.about-section .btn:hover{
+    box-shadow: 3px 4px 5px 0px rgb(59, 57, 57);
+}
