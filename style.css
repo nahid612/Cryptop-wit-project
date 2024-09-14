@@ -86,6 +86,8 @@ body{
 
 .banner .part1 .btn:hover{
     box-shadow: 3px 4px 5px 0px rgb(59, 57, 57);
+    transition-duration: 0.4s;
+    margin-top: 5px;
 }
 /* --------------Banner Section End---------- */
 .how-section{
@@ -251,6 +253,8 @@ body{
 
 .how-section .payment-btn .btn:hover{
     box-shadow: 3px 4px 5px 0px rgb(59, 57, 57);
+    transition-duration: 0.4s;
+    margin-top: 5px;
 }
 
 
@@ -307,6 +311,8 @@ body{
 
 .about-section .btn:hover{
     box-shadow: 3px 4px 5px 0px rgb(59, 57, 57);
+    transition-duration: 0.4s;
+    margin-top: 5px;
 }
 
 /* -------------about section end------------ */
@@ -428,5 +434,118 @@ body{
 
 .testimonal-container h5:hover{
     box-shadow: 3px 4px 5px 0px rgb(59, 57, 57);
+}
+/* ---------------Testimonal Section Complete-------------- */
 
+.footer-section{
+    background-color: rgb(20, 20, 20);
+    margin-top: 90px;
+}
+
+.footer-container{
+    color: white;
+    padding: 50px 120px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-container .footer-box1{
+    width: 262px;
+}
+
+.footer-container .footer-box2{
+    width: 262px;
+}
+
+.footer-container .footer-box3{
+    width: 262px;
+}
+
+.footer-container .footer-box4{
+    width: 262px;
+}
+
+.footer-container .logo{
+    font-size: 30px;
+}
+
+.footer-container .logo .logoColor{
+    background-color: rgb(13, 238, 163);
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-container h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer-container .location{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.location img{
+    width: 18px;
+    height: 25px;
+}
+
+.footer-box1 .number{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.number img{
+    width: 18px;
+    height: 18px;
+}
+
+.footer-box1 .mail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.mail img{
+    width: 18px;
+    height: 14px;
+}
+
+.footer-box2 p{
+    line-height: 25px;
+}
+
+.footer-box3 p{
+    width: 115px;
+    line-height: 30px;
+}
+
+.footer-box4 input{
+    padding: 10px;
+    padding-right: 50px;
+    background: #202020;
+    outline: none;
+    border: white;
+    border-style: solid;
+    font-style: normal;
+}
+
+.footer-box4 p{
+    text-transform: uppercase;
+    background-color: #34bb71;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-box4 p:hover{
+    box-shadow: 3px 4px 5px 0px rgb(59, 57, 57);
+    transition-duration: 0.4s;
+    margin-top: 5px;
 }
